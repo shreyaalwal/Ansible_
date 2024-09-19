@@ -6,11 +6,11 @@
       apt:
         name: tree
         state: present
-    - name: install apache2
+    - name: install nginx
       apt:
-        name: apache2
+        name: nginx
         state: present
     - name: start apache service
       service:
-        name: apache2
+        name: nginx
         state: started
