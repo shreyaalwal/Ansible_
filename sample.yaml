@@ -10,7 +10,4 @@
       apt:
         name: nginx
         state: present
-    - name: start apache service
-      service:
-        name: nginx
-        state: started
+    
