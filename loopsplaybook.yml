@@ -1,5 +1,5 @@
 ---
-- hosts: javaserver
+- hosts: mywebserver
   become: yes
   vars:
     myvar1 : git
