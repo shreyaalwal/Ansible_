@@ -11,5 +11,5 @@
 
     - name : i want to replace apache vertex page
       template:
-          src: newtemplatefile.j2
+          src: /home/shreya/Ansible_/newfiletemplate.j2
           dest: /var/www/html/index.html
