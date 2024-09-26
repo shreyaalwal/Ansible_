@@ -1,0 +1,15 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - include_tasks: createfileplaybook.yml
+
+    - name: i want to install apache2 on node server
+      apt:
+          name: apache2
+          state: present
+
+    - name : i want to replace apache vertex page
+      template:
+          src: newtemplatefile.j2
+          dest: /var/www/html/index.html
