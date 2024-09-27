@@ -1,7 +1,4 @@
----
-- hosts: javaserver
-  become: yes
-  tasks:
+
 
     - name: Install OpenJDK 8 on Ubuntu
       apt:
