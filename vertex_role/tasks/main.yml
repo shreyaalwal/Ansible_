@@ -1,2 +1,3 @@
 ---
 # tasks file for vertex_role
+- include_tasks: java_JDK_install.yml
