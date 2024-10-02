@@ -1,5 +1,7 @@
 
     - name: i want to create file into ansible-node
       file:
-        path: /home/shreya/Ansible_/java_JDK_install.yml
-        state: touch 
+        path: /home/shreya/myfile.txt
+        state: touch
+
+        
